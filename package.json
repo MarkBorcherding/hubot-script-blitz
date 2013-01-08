@@ -1,0 +1,24 @@
+{
+  "name":        "hubot-script-blitz",
+  "version":     "0.0.1",
+  "author":      "Mark Borcherding",
+  "keywords":    "hubot hubot-script blitz",
+  "description": "Expose blitz.io tests via hubot",
+  "licenses":     [{
+    "type":       "MIT",
+    "url":        "http://github.com/markborcherding/hubot-script-blitz/raw/master/LICENSE.md"
+  }],
+
+  "repository" : {
+    "type": "git",
+    "url":  "https://github.com/markborcherding/hubot-script-blitz.git"
+  },
+
+  "dependencies": {
+    "blitz": "0.4.1"
+  },
+
+  "main" : "./index.coffee"
+
+}
+
