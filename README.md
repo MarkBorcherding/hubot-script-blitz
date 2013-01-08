@@ -1,3 +1,3 @@
-# Ping Pong
+# Hubot Blitz Script
 
-An example hubot script that can be delivered entirely by npm.
+Expose Blitz.io load testing via hubot.
