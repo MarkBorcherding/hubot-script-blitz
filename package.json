@@ -18,7 +18,7 @@
     "blitz": "0.4.1"
   },
 
-  "main" : "./index.coffee"
+  "main" : "./src/blitz.coffee"
 
 }
 
