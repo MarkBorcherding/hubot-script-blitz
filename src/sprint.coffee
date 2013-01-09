@@ -1,5 +1,5 @@
 
-regex = /blitz(?: me)? (.*)/i
+regex = /blitz(?: me)? sprint (.*)/i
 
 format = (data) ->
   step = data.steps[0]

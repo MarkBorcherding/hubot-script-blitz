@@ -8,7 +8,7 @@ describe "Sprint", ()->
     regex = Sprint.regex
 
     describe 'simple command', ()->
-      message = "blitz me http://foo.com"
+      message = "blitz me sprint http://foo.com"
 
       it 'should match 2 results', ()->
         regex.exec(message).length.should.equal 2
