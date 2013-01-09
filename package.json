@@ -18,6 +18,13 @@
     "blitz": "0.4.1"
   },
 
+  "devDependencies": {
+    "mocha": "1.8.x",
+    "should": "1.2.x",
+    "coffee-script": "1.4.x"
+  },
+
+
   "main" : "./src/blitz.coffee"
 
 }
