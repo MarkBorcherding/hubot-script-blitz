@@ -1,4 +1,4 @@
-assert = require "should"
+aassert = require "should"
 
 describe "Sprint", ()->
 

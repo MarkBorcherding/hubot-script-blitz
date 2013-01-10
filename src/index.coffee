@@ -1,8 +1,3 @@
-Blitz = require 'blitz'
-
-EMAIL = process.env.HUBOT_BLITZ_EMAIL
-API_KEY = process.env.HUBOT_BLITZ_API_KEY
-
 #
 #
 # Description:
@@ -22,10 +17,7 @@ API_KEY = process.env.HUBOT_BLITZ_API_KEY
 #   markborcherding
 module.exports = (robot) ->
 
-  # as we add more commands we just need to expose an init method to
-  # make it easier to test
-  for script in [
-    require 'sprint'
-  ]
-    script.init robot
+  for s in [ 'execute']
+    Script = new require("./#{s}")
+    new Script().init(robot)
 
