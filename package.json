@@ -15,7 +15,8 @@
   },
 
   "dependencies": {
-    "blitz": "0.4.1"
+    "blitz": "0.4.1",
+    "underscore": "1.4.x"
   },
 
   "devDependencies": {
